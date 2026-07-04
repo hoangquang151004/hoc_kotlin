@@ -1,4 +1,4 @@
-package Tuan_2
+package Tuan_2.buoi_1
 
 class XeHoi(var hangXe: String, var mauXac:String, var namSanXuat:Int){
     var tocDoHienTai: Int = 0
