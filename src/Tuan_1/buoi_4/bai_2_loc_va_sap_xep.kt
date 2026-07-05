@@ -6,7 +6,7 @@ package Tuan_1.buoi_4
 //In danh sách kết quả ra màn hình.
 fun main() {
     var diemSoSinhVien = listOf(4, 9, 6, 3, 8, 10)
-    var danhSachDiemDo = diemSoSinhVien.filter { it >= 5 }
+    var danhSachDiemDo = diemSoSinhVien.filter { it >= 5 } // trả ve boolean
     println("Danh sach diem do la: $danhSachDiemDo")
     danhSachDiemDo = danhSachDiemDo.sortedByDescending { it }
     println("Danh sach diem do co sap xep la: $danhSachDiemDo")
